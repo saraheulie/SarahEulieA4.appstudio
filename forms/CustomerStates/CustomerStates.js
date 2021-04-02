@@ -20,11 +20,6 @@ CustomerStates.onshow = function() {
                 }
         }
 }
-
-/*
- for (i = 0; i < results.length; i++)
-             drpStates.addItem(results[i])
-*/
              
             
 drpStates.onclick=function(s){
@@ -46,7 +41,7 @@ drpStates.onclick=function(s){
            let message = ""
            for (i = 0; i < results2.length; i++)
                message = message + results2[i] + "\n"
-           lblCustomers.value = message
+           lblCustomers.value = `The customers in ${state} are: \n` + message
         } // end else
 
     } else   // the transit didn't work - bad wifi? server turned off?
