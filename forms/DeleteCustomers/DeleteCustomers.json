@@ -1,0 +1,92 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "DeleteCustomers",
+        "Elements",
+        "btnRepeat.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "DeleteCustomers",
+        "Elements",
+        "lblMessage2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "DeleteCustomers",
+        "Elements",
+        "txtaCustomers.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "DeleteCustomers",
+        "Elements",
+        "inptDelete.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "DeleteCustomers",
+        "Elements",
+        "btnDelete.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "DeleteCustomers",
+        "Elements",
+        "btnShow.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 0,
+  "designWidth": 0,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "DeleteCustomers",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 320
+}
