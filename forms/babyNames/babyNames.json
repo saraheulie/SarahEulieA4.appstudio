@@ -36,6 +36,15 @@
         "Elements",
         "lblMessage3.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "babyNames",
+        "Elements",
+        "lblAlert.json"
+      ]
     }
   ],
   "class": "",

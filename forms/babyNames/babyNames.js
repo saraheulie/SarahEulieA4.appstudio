@@ -5,10 +5,16 @@ let chosen = ""
 babyNames.onshow=function(){
   for (i = 0; i < listBabyNames.length; i++) 
         selNames.addItem(listBabyNames[i])
+  if (chosen.length > 5) {
+    lblAlert.show()
+    }
 }
 
 btnContinue.onclick=function(){
-  chosen = selNames.value
   ChangeForm(favBabyNames)
  
+}
+
+selNames.onchange=function(){
+  chosen = selNames.value
 }

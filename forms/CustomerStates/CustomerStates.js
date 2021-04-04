@@ -14,7 +14,6 @@ CustomerStates.onshow = function() {
         if (results.length === 0)    
            lblMessage.value = "There are no customers in the database."
         else {       
-            console.log(results)
             for (i = 0; i < results.length; i++)
              drpStates.addItem(results[i])
                 }

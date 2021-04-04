@@ -1,6 +1,6 @@
 {
   "!type": "Label_bs4",
-  "appearance": "dark",
+  "appearance": "primary",
   "backgroundColor": "",
   "borderRadius": "0",
   "bottom": "auto",
@@ -15,11 +15,11 @@
   "fontSize": "",
   "fontStyle": "",
   "fontWeight": "",
-  "height": 85,
-  "hidden": "",
-  "id": "lblMessage3",
+  "height": 78,
+  "hidden": "display:none; ",
+  "id": "lblAlert",
   "labelStyle": "text",
-  "left": 4,
+  "left": 5,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -41,8 +41,8 @@
   "pTop": "",
   "right": "auto",
   "script": "",
-  "style": "text-align: center",
-  "top": 3,
-  "value": "Please choose five names from the list of baby names. When finished, click View Favorites List to continue.",
-  "width": 319
+  "style": "text-align:center",
+  "top": 89,
+  "value": "If you choose more than five names, only the first five will be added to your favorites list.",
+  "width": 307
 }
