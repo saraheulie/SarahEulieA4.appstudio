@@ -36,6 +36,15 @@
         "Elements",
         "lblCustomers.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CustomerStates",
+        "Elements",
+        "txtaCustomerStates.json"
+      ]
     }
   ],
   "class": "",
