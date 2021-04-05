@@ -5,7 +5,8 @@ let pw = "Chocolate-0-"
 let results = []
 
 CustomerStates.onshow = function() {
-  query = "SELECT `state` FROM customer GROUP BY `state`"
+   drpStates.clear() 
+  query = "SELECT DISTINCT `state` FROM customer GROUP BY `state`"
     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=" + netID + "&query=" + query)
   
   if (req.status == 200) { //transit trip worked. 
@@ -17,7 +18,8 @@ CustomerStates.onshow = function() {
             for (i = 0; i < results.length; i++)
              drpStates.addItem(results[i])
                 }
-        }
+     } else   // the transit didn't work - bad wifi? server turned off?
+        lblMessage.value = "Error code: " + req.status
 }
              
             
@@ -39,8 +41,8 @@ drpStates.onclick=function(s){
         else {        
            let message = ""
            for (i = 0; i < results2.length; i++)
-               message = message + results2[i] + "\n"
-           lblCustomers.value = `The customers in ${state} are: \n` + message
+               message = message + results2[i][0] + "\n"
+           txtaCustomerStates.value = `The customer(s) in ${state} are: \n` + message
         } // end else
 
     } else   // the transit didn't work - bad wifi? server turned off?
