@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnContinue",
-  "left": 59,
+  "left": 57,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 337,
+  "top": 402,
   "value": "View Favorites List",
   "width": 185
 }

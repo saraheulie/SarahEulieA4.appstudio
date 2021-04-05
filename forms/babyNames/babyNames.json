@@ -45,6 +45,15 @@
         "Elements",
         "lblAlert.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "babyNames",
+        "Elements",
+        "btnSubmitFaves.json"
+      ]
     }
   ],
   "class": "",
